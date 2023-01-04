@@ -1,0 +1,21 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "my mern project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index"
+  },
+  "author": "Abbos Qudratov",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
